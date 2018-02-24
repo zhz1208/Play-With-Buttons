@@ -525,15 +525,7 @@ $(document).ready(function(){
         la = (la + 1) % langs.length;
     });
 
-    // 39
-    $("#ma").click(function() {
-        var win = window.open('https://github.com/zhz1208', '_blank');
-        if (win) {
-            win.focus();
-        } else {
-            alert('Browser doesn\'t allow pop-ups.');
-        }
-    });
+
 
     // 40
     var na = 1;
@@ -687,5 +679,14 @@ $(document).ready(function(){
         }   
     });
 
+    // 50
+    $("#xa").click(function() {
+        var win = window.open('https://github.com/zhz1208', '_blank');
+        if (win) {
+            win.focus();
+        } else {
+            alert('Browser doesn\'t allow pop-ups.');
+        }
+    });
 
 });
