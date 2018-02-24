@@ -77,9 +77,9 @@ $(document).ready(function(){
             var width = $img0.width();    // Current image width
             var height = $img0.height();  // Current image height
             var ratio = width / height;
-            $img0.css("position", "relative");
-            $img0.css("width", 200);
-            $img0.css("height", 200 / ratio);
+            $img0.css("position", "center");
+            $img0.css("width", 180);
+            $img0.css("height", 180 / ratio);
             $img0.css("", 50);
             $img0.css("top", 50);
         }
@@ -511,10 +511,6 @@ $(document).ready(function(){
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     });
 
-    // 37
-    $("#ka").click(function() {
-        $("#ka #rainbow").fadeIn(1500).delay(100).fadeOut(1500);
-    });
 
     // 38
     var la = 1;
@@ -525,7 +521,11 @@ $(document).ready(function(){
         la = (la + 1) % langs.length;
     });
 
-
+    // 39
+    $("#ma").click(function() {
+        $("#ma #meteor").fadeIn(1500).delay(100).fadeOut(1500);
+        
+    });
 
     // 40
     var na = 1;
@@ -681,7 +681,7 @@ $(document).ready(function(){
 
     // 50
     $("#xa").click(function() {
-        var win = window.open('https://github.com/zhz1208', '_blank');
+        var win = window.open('https://zeuzeu.com', '_blank');
         if (win) {
             win.focus();
         } else {

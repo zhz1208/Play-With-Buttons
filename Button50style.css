@@ -532,6 +532,14 @@ marquee::selection {display: none}
     background-size: 100px 100px;
 }
 
+/*---------------37---------------*/
+#ka img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100%;
+}
+
 /*---------------38---------------*/
 #la #hello {    
 }
@@ -542,13 +550,7 @@ marquee::selection {display: none}
     font-weight: regular;
 }
 
-/*---------------39---------------*/
-#ma img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    height: 100%;
-}
+
 
 
 /*---------------40---------------*/
@@ -726,6 +728,10 @@ marquee::selection {display: none}
     background-color: #E96196;
 }
 
+#xa .centralT {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
 
 
 /* entire container, keeps perspective */
