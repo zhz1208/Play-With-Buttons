@@ -161,7 +161,7 @@ $(document).ready(function(){
     // 9
     var i = 0;
     $("#i").click(function() {
-        var $txt = $('<p id="hello">'+i+'</p>').appendTo(this);
+        var $txt = $('<p id="counting">'+i+'</p>').appendTo(this);
         $txt.css("text-align", "center");
         //$txt.css("position", "relative");
         //$txt.css("margin", "0");
@@ -619,17 +619,11 @@ $(document).ready(function(){
 
 
     // 47
-    var ua = false;
-    $("#ua #clickme").hover(function() {
-        $clickme = $("#ua #clickme");
-        if (ua == false) {
-            $clickme.css("left", "200px");
-            ua = true;
-        }
-        else {
-            $clickme.css("left", "50px");
-            ua = false;
-        }
+    $("#ua #mousetrigger").mouseover(function() {
+        $("#ua #clickme").css("left", "200px");
+    });
+    $("#ua #mousetrigger").mouseleave(function() {
+        $("#ua #clickme").css("left", "50px");
     });
 
     // 48 

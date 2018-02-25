@@ -1,7 +1,8 @@
-33.txt {
+.txt {
     font-size: 16px;
     font-family: Montserrat;
     font-weight: regular;
+    letter-spacing: 10px;
 }
 
 .full {
@@ -107,7 +108,10 @@
 }
 
 #c #hello {
-    font-size: 18pt;
+    font-size: 20pt;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: #4DDED9;
 }
 
 /*---------------4---------------*/
@@ -150,8 +154,8 @@
 #i {
 }
 
-#hello {
-    font-size: 12px;
+#counting {
+    font-size: 16px !important;
     font-family: Montserrat;
     font-weight: 700;  
     color: #4DDED9;
@@ -164,7 +168,8 @@
 
 #gatsby {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 2px;
     color: white;
     opacity: 0;
     z-index: 2;
@@ -738,8 +743,8 @@ marquee::selection {display: none}
 
 /*---------------47---------------*/
 #ua #clickme {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 50px;
     left: 50px;
     width: 150px;
     height: 150px;
@@ -747,6 +752,14 @@ marquee::selection {display: none}
     background-repeat: no-repeat;
     background-position: center;
     background-size:100%  100%;
+}
+
+#ua #mousetrigger {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
 }
 
 /*---------------48---------------*/
